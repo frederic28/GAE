@@ -6,5 +6,5 @@ dispatch:
   - url: "*/charge/*"
     service: charge
 
-  - url: "*/login"
+  - url: "*/login/*"
     service: login

@@ -1,7 +1,3 @@
 dispatch:
-  - url: "*/login"
+  - url: "*/login/*"
     module: login
-
-  #default
-  - url: "*/*"
-    module: default

@@ -5,3 +5,7 @@ service: login
 handlers:
 - url: /.*
   script: index.php
+
+
+env_variables:
+  GOOGLE_PROJECT_ID: "upjv-ccm-etu-006"
