@@ -1,0 +1,28 @@
+runtime: php55
+api_version: 1
+service: default
+
+instance_class: F2
+automatic_scaling:
+  min_idle_instances: 2
+  max_idle_instances: automatic  # default value
+  min_pending_latency: 15ms  # default value
+  max_pending_latency: automatic
+
+handlers:
+- url: /(.+\.html)$
+  static_files: \1
+  upload: .+\.html$
+- url: /(.+\.(jpeg|png))$
+  static_files: img/\1
+  upload: img/.*\.(jpeg|png)$
+- url: /(.+\.css)$
+  static_files: \1
+  upload: css/.*\.css$
+- url: /(.+\.js)$
+  static_files: js/\1
+  upload: js/.*\.js
+- url: /(.+\.(php))$
+  script: \1
+- url: /.*
+  script: index.php

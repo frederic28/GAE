@@ -1,0 +1,15 @@
+runtime: php55
+api_version: 1
+service: admin
+
+handlers:
+- url: /admin/(.+\.css)$
+  static_files: \1
+  upload: css/.*\.css$
+- url: /admin/(.+\.js)$
+  static_files: \1
+  upload: js/.*\.js$
+- url: /admin/(.+\.(php))$
+  script: \1
+- url: /admin/.*
+  script: index.php

@@ -1,0 +1,17 @@
+body {
+    padding-top: 5rem;
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.card-head {
+    padding: 8px;
+    background-color: lightblue;
+    font-size: small;
+    font-weight: bolder;
+}
