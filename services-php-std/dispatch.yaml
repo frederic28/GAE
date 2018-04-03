@@ -1,7 +1,10 @@
 dispatch:
-  - url: "*/login"
-    module: login
+# pour tous les noms de domaine suivi de admin/ <n'import quoi> c'est le service admin
+  - url: "*/admin/*"
+    service: admin
 
-  #default
-  - url: "*/*"
-    module: default
+  - url: "*/charge/*"
+    service: charge
+
+  - url: "*/login"
+    service: login

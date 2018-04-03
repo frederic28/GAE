@@ -16,7 +16,7 @@
 
 <div class="col-md12">
     <form action="/charge/send" type="post">
-        <p>Nombre de requettes : <input type="text" name="requete" /></p>
+        <p>Nombre de : <input type="text" name="requete" /></p>
     </form>
 </div>
 <?php

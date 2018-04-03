@@ -2,32 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="964db039-ccbb-4c7e-ae1f-6d2041f3207a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services-php-std/admin/v1.0/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services-php-std/admin/v1.1/admin.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services-php-std/admin/v1.1/css/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services-php-std/admin/v1.1/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services-php-std/admin/v1.1/js/charge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services-php-std/admin/v1.1/php.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services-php-std/admin/v1.1/phpinfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services-php-std/front/frontBasic.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services-php-std/front/frontManuel.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services-php-std/login/admin.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/app/login/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/app/login/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dispatch.yaml" afterPath="$PROJECT_DIR$/services-php-std/dispatch.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/admin/admin.yaml" afterPath="$PROJECT_DIR$/services-php-std/admin/v1.0/admin.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/admin/css/admin.css" afterPath="$PROJECT_DIR$/services-php-std/admin/v1.0/css/admin.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/admin/index.php" afterPath="$PROJECT_DIR$/services-php-std/login/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/admin/js/charge.js" afterPath="$PROJECT_DIR$/services-php-std/admin/v1.0/js/charge.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/admin/php.ini" afterPath="$PROJECT_DIR$/services-php-std/admin/v1.0/php.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/admin/phpinfo.php" afterPath="$PROJECT_DIR$/services-php-std/admin/v1.0/phpinfo.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/charge/v_1.1/charge.yaml" afterPath="$PROJECT_DIR$/services-php-std/charge/v_2.0/charge.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/charge/v_1.1/composer.json" afterPath="$PROJECT_DIR$/services-php-std/charge/v_2.0/composer.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/charge/v_1.1/composer.lock" afterPath="$PROJECT_DIR$/services-php-std/charge/v_2.0/composer.lock" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/charge/v_1.1/php.ini" afterPath="$PROJECT_DIR$/services-php-std/charge/v_2.0/php.ini" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/charge/v_1.1/send.php" afterPath="$PROJECT_DIR$/services-php-std/charge/v_2.0/send.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/front/front.yaml" afterPath="$PROJECT_DIR$/services-php-std/front/frontAuto.yaml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services-php-std/front/frontBasic.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services-php-std/front/frontManuel.yaml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/front/frontAuto.yaml" afterPath="$PROJECT_DIR$/services-php-std/front/front.yaml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/services-php-std/login/admin.yaml" afterPath="$PROJECT_DIR$/services-php-std/login/login.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services-php-std/dispatch.yaml" afterPath="$PROJECT_DIR$/services-php-std/dispatch.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services-php-std/login/index.php" afterPath="$PROJECT_DIR$/services-php-std/login/index.php" />
     </list>
     <ignored path="GAE_M1_2017.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dispatch.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dispatch.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services-php-std/dispatch.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -70,21 +51,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dispatch.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/app/dispatch.yaml">
+      <file leaf-file-name="front.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services-php-std/front/front.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services-php-std/login/admin.yaml">
+      <file leaf-file-name="dispatch.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/app/dispatch.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="36">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services-php-std/login/login.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/app/login/app.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -93,10 +94,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services-php-std/login/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="324">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
-                <element signature="e#772#808#0#PHP" expanded="true" />
+                <element signature="e#762#798#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,7 +117,6 @@
         <option value="$PROJECT_DIR$/services-php-std/charge/v.1.0/send.php" />
         <option value="$PROJECT_DIR$/services-php-std/admin/admin2.yaml" />
         <option value="$PROJECT_DIR$/services-php-std/admin/js/charge2.js" />
-        <option value="$PROJECT_DIR$/services-php-std/front/frontAuto.yaml" />
         <option value="$PROJECT_DIR$/services-php-std/front/frontBasic.yaml" />
         <option value="$PROJECT_DIR$/services-php-std/front/frontManuel.yaml" />
         <option value="$PROJECT_DIR$/services-php-std/admin/index.php" />
@@ -131,7 +131,9 @@
         <option value="$PROJECT_DIR$/services/app/login/index.php" />
         <option value="$PROJECT_DIR$/services/app/login/Authentification.php" />
         <option value="$PROJECT_DIR$/services-php-std/login/index.php" />
+        <option value="$PROJECT_DIR$/services-php-std/login/login.yaml" />
         <option value="$PROJECT_DIR$/services-php-std/dispatch.yaml" />
+        <option value="$PROJECT_DIR$/services-php-std/front/frontAuto.yaml" />
       </list>
     </option>
   </component>
@@ -197,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -261,7 +264,51 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GAE_M1_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GAE_M1_2017" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services-php-std" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1.1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GAE_M1_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GAE_M1_2017" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services-php-std" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1.0" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,14 +358,35 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GAE_M1_2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GAE_M1_2017" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GoogleAppEngine/GAE_M1_2017" />
     <property name="WebServerToolWindowFactoryState" value="true" />
   </component>
   <component name="RecentsManager">
@@ -431,18 +499,19 @@
       <workItem from="1521199260990" duration="15253000" />
       <workItem from="1522709450359" duration="23000" />
       <workItem from="1522738844609" duration="7003000" />
+      <workItem from="1522751181578" duration="2263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33029000" />
+    <option name="totallyTimeSpent" value="35292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="2050" height="1127" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25924075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26173827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -489,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -521,7 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,36 +626,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services-php-std/admin/js/charge.js" />
-    <entry file="file://$PROJECT_DIR$/services-php-std/admin/v1.0/admin.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services-php-std/admin/admin2.yaml" />
-    <entry file="file://$PROJECT_DIR$/services-php-std/front/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services-php-std/admin/js/charge2.js" />
-    <entry file="file://$PROJECT_DIR$/services-php-std/front/frontBasic.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services-php-std/front/frontManuel.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services-php-std/admin/v1.0/css/admin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -602,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1782">
           <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,18 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services-php-std/front/frontAuto.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services-php-std/admin/v1.1/phpinfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1476">
           <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1458">
           <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,15 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/app/login/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,18 +744,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/app/login/Authentification.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/services/app/login/Authentification.php" />
     <entry file="file://$PROJECT_DIR$/services/app/login/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -756,28 +758,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services-php-std/login/index.php">
+    <entry file="file://$PROJECT_DIR$/services/app/login/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#772#808#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/app/dispatch.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services-php-std/login/admin.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="36">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -786,6 +778,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services-php-std/front/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services-php-std/front/frontManuel.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services-php-std/front/frontBasic.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services-php-std/admin/v1.0/admin.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services-php-std/front/front.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services-php-std/login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#762#798#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services-php-std/login/login.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
